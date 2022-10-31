@@ -1,0 +1,85 @@
+/*BLOCO 1 ---------------------------------*/
+
+.inicio{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 600px;
+}
+
+.infos{
+  margin-left: 10rem;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.tag{
+  border: solid 1px var(--cor-tercearia);
+  background-color: rgba(200,45,255,0.09037118265274857);
+  width: 190px;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  padding-left: 10px;
+  border-radius: 30px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.infos > h1{
+  font-size: 2.3em;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+.infos > h2{
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--cor-subtitulo);
+}
+
+.area-buttons{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  height: 70px;
+}
+
+.btn-rosa{
+  width: var(--width-btn);
+  height: var(--height-btn);
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: var(--cor-primaria);
+  color: white;
+  box-shadow: 5px 5px 0px 1px black;
+}
+
+.extra{
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  color: var(--cor-subtitulo);
+}
+
+.img{
+  width: 51rem;
+  position: absolute;
+  right: 0;
+  left: 45%;
+  top: 18%;
+}
+
+.camada{
+  position: absolute;
+  width: 38rem;
+  height: 38rem;
+  background-color: var(--cor-primaria);
+  top: 0;
+  right: 0;
+  border-radius: 0 0 0 40px;
+}

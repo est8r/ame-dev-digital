@@ -1,0 +1,96 @@
+.vantagens{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 600px;
+}
+
+.vant-titulos{
+  text-align: center;
+}
+
+.vant-titulos > h1{
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.vant-titulos > p{
+  color: grey;
+}
+
+.lin-1{
+  display: flex;
+  gap: 50px;
+}
+
+.vant-item{
+  padding: 20px;
+  width: 400px;
+  height: 150px;
+  box-shadow: 3px 5px 15px 1px rgba(0,0,0,0.12);
+  background-color: #fff;
+  display: flex;
+  gap: 50px;
+}
+
+.vant-item > section > h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.vant-item > section > p{
+  font-size: 14px;
+  width: 250px;
+}
+
+.bola-roxa{
+  content: "";
+  background-color: #C82DFF;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.bola-verde{
+  content: "";
+  background-color: #55ff2d;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.bola-azul{
+  content: "";
+  background-color: #2d43ff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.bola-amarela{
+  content: "";
+  background-color: #fffc2d;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.bola-rosa{
+  content: "";
+  background-color: #ff2df0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.circulo-dois{
+  background-color: #FF2D55;
+  clip-path: circle(32.0% at 50% 50%);
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 200%;
+  left: 10%;
+}

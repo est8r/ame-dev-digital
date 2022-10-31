@@ -1,0 +1,51 @@
+.carrossel{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 750px;
+  padding: 0 150px;
+  margin-top: 40px;
+}
+
+.circulo{
+  background-color: #FF2D55;
+  clip-path: inset(31% 4% 34% 0);
+  height: 800px;
+  width: 500px;
+  position: absolute;
+  top: 85%;
+  z-index: -1;
+  border-radius: 40px;
+}
+
+.icon-carrossel{
+  width: 70px;
+}
+
+.carousel-item{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  gap: 10px;
+}
+
+#carouselExampleIndicators {
+  border-radius: 10px;
+  height: 500px;
+  width: 800px;
+  background-color: #f6f6f6;
+}
+
+.carrossel-desc{
+  width: 30%;
+}
+
+.carrossel-desc > h1{
+  font-weight: 700;
+}
+
+.carrossel-desc > p{
+  color: gray;
+}
